@@ -1,15 +1,23 @@
 
 /* bigshot one font */
-@import url(https://fonts.googleapis.com/css?family=Cabin+Condensed);
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 body,html{margin:0;padding:0;height:100%;}
 body{
-  background: rgb(120, 132, 117);
+  background: rgb(255, 248, 241);
   background-size:cover;
-  font-family: 'Cabin Condensed', sans-serif;
+  font-family: 'Lora', sans-serif;
   display:flex;
   flex-direction:column;
   justify-content:center;
   align-items:center;
 }
-svg{font-weight:bold;max-width:600px;height:100%;}
+/*
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+*/
+svg{font-weight:bold;max-width:800px;height: 100%;}
